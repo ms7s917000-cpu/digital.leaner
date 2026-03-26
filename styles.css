@@ -1,0 +1,20 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #111; color: #e5e5e5; line-height: 1.5; }
+header { padding: 2rem; background: linear-gradient(120deg, #25316d, #1b1f41); text-align: center; }
+header h1 { font-size: 2rem; margin-bottom: .5rem; }
+header p { color: #babdff; }
+main { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+.hero { background: #1d2254; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+.hero h2 { margin-bottom: .75rem; }
+.hero p { color: #c5c8ff; margin-bottom: 1rem; }
+button { background: #8358e3; color: #fff; border: none; border-radius: 8px; padding: .7rem 1.3rem; cursor: pointer; font-weight: 700; }
+button:hover { background: #9a71ff; }
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.features article { background: #141c45; border-radius: 10px; padding: 1rem; border: 1px solid #2e3674; }
+.capture form { display: grid; gap: .65rem; }
+input, textarea { width: 100%; padding: .7rem; border: 1px solid #445; border-radius: 8px; background: #1a214a; color: #f0f0ff; }
+textarea { min-height: 110px; resize: vertical; }
+#feedback { margin-top: .7rem; }
+.hidden { display: none; }
+footer { text-align: center; margin: 1.5rem 0 0; color: #8c93bf; }
+@media (max-width: 600px) { header h1 { font-size: 1.5rem; } }
